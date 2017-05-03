@@ -1,0 +1,7 @@
+---
+# tasks file for ansible-devel
+- name: Name for package module.
+  sudo: yes
+  package: 
+    name: ansible
+    state: present
